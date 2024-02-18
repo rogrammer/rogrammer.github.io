@@ -2,12 +2,60 @@
 <html>
     <head>
        <title>
-        about me
+            about me
        </title> 
     </head>
     <body>
+        <style>
+            body
+            {
+                background-image: url(back.jpg);
+                background-size: 100% 180%;
+                justify-content: center;
+                align-items: center;
+            }
+            h1
+            {
+                color: white;
+                font-family: 'Apple Chancery', 'cursive';
+                padding-top: 100px;
+                text-align: center;
+                position: relative;
+                font-size: 5em;
+                letter-spacing: 10px;
+                color: #0e3742;
+                width: 100%;
+                text-transform: uppercase;
+                animation: animate 5s linear infinite;
+            }
+
+            @keyframes animate
+            {
+                0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
+                 {
+                    color: #023742;
+                 }
+
+                18.1%, 20.1%, 30%, 50%, 60.1%, 64%, 80.1%, 90%, 92.1%, 100% {
+                    color: #fff;
+                    text-shadow: 0 0 10px #03bcf4,
+                    0 0 20px #03bcf4,
+                    0 0 40px #03bcf4,
+                    0 0 80px #03bcf4,
+                    0 0 160px #03bcf4;
+                 }
+            }
+
+            p
+            {
+                color: rgb(79, 65, 51);
+                text-align: center;
+                font-family: 'Apple Chancery', 'cursive';
+                font-size: 2em;
+            }
+        </style>
         <h1>
-            About İbrahim Bahça:
+            İBRAHİM BAHÇA
         </h1>
         <p>
             My name is Ibrahim Bahça, and I reside in Dörtyol, Hatay.
@@ -15,12 +63,8 @@
             I completed my primary, middle, and high school education in Dörtyol.
             <br>
             I graduated from Dörtyol Science High School with an outstanding average of 95.5 out of 100.
-        </p>
-        <h1>
-            About Furkan Demir:
-        </h1>
-        <p>
-            My name is Furkan Demir ....
+            <br>
+            I am currently a student at Ankara Yıldırım Beyazıt University, Department of Computer Science.
         </p>
     </body>
 </html>
