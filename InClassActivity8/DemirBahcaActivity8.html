@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity8</title>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="DemirBahcaActivity8.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+  </head>
+
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td>
+            <label for="PLanguage"
+              >What programming language do you know?</label
+            >
+          </td>
+          <td>
+            <input type="text" id="PLanguage" name="PLanguage" required /><br />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="Date">What is your birthday</label>
+          </td>
+          <td>
+            <input type="text" id="Date" required /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email">Email Address</label>
+          </td>
+          <td>
+            <input
+              type="email"
+              id="email"
+              required
+              placeholder="Enter a valid email address"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="website">Website</label>
+          </td>
+          <td>
+            <input type="url" id="website" required pattern="https?://.+" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="submit" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <script src="DemirBahcaActivity8.js"></script>
+  </body>
+</html>
