@@ -1,5 +1,5 @@
-		$(document).ready(function() {
-			$("#tabs").tabs({
-				collapsible: true
-			});
-		});
+$(document).ready(function() {
+	$("#tabs").accordion({
+		collapsible: true
+	});
+});
